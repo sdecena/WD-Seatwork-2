@@ -13,7 +13,7 @@ header * {
 header {
     display: flex;
     justify-content: space-between;
-    padding: .8rem 5vw ;
+    padding: .4rem 5vw ;
     align-items: center;
     position: fixed;
     width: 90vw;
@@ -73,18 +73,18 @@ section.hero .left {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 16px;
+    gap: 30px;
 
     & h3{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     & h1{
-        font-size: 5rem;
+        font-size: 2.9rem;
     }
 
     & h2{
-        font-size: 3.5rem;
+        font-size: 2.2rem;
     }
 
     & p{
@@ -98,7 +98,52 @@ section.hero .left {
 
 section.hero .right img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
     object-position: top;
+    
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    otline: 5px solid red;
+    margin-bottom: 30rem;
+
+    & h1{
+        font-size: 5rem;
+    }
+
+    & h2{
+        font-size: 2rem;
+    }
+
+    & h3{
+        font-size: 1rem;
+        
+    }
+
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    outine: 5px solid red;
+    margin-bottom: 30rem;
+
+    & h1{
+        font-size: 5rem;
+    }
+
+    & h2{
+        font-size: 2rem;
+    }
+
+    & h3{
+        font-size: 1rem;
+        
+    }
+
 }
