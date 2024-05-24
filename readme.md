@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  
+ Webpage created by Decena, Stephen (TX03)
 </div>
 
 <br />
@@ -67,6 +67,7 @@
 - Whats the purpose
 - What are key components
 - What technology used and how it is used -->
+
 This project is all about designing a website that contains our own portfolio/resume. Its main
 purpose is for us to develop and practice our skills in using HTML and CSS, in addition, this
 project will also provide a platform for users to present their background, experience, and skills. 
@@ -156,5 +157,7 @@ Putting the website background.
 - 05/24: Finished about me page and education page.
 Added timeline feature for education.
 ---
--05/25: Created hobbies & skills page.
+- 05/25: Created hobbies & skills page.
 Finishing the website.
+
+---
