@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Dev */
+header,
+header * {
+    outline: 1px blue dash ed;
+}
+
+/* Dep */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw ;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 7vw;
+    top: 0;
+    left: 0;
+    bac kground: #00000058;
+    color:#fff;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+
+
+}
+
+.links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+nav,
+.links a{
+    display: flex;
+    text-decoration: none;
+
+}
+
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(/assets/img/wallpaperOne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section.hero,
+section.hero * {
+    outline: 1px red dahed
+}
+
+
+
+#hobbiesSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0rem;
+    backgro und-color: #333;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sectionP1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.titleHobby {
+    margin-bottom: 10rem;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    color: rgb(97, 145, 170);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.sectionPic {
+    backgr ound: #000;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    
+}
+
+.hobbyPic {
+    background: #000;
+    border-radius: 2rem;
+    width: 100%;
+    height: 140%;
+}
+
+.hobbyDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: rem;
+    flex: 1;
+}
+
+.hobbyContainer {
+    display: flex;
+    gap: 2rem;
+    backgro und: #000;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.detailsContainer {
+    padding-top: 20px;
+    flex: 10;
+    border-radius: 3rem;
+    border: 0.1rem solid rgb(113, 113, 113);
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;
+
+}
+
+.detailsContainer p {
+    padding: rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.detailsContainer h3 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+
+}
+
+.textContainer {
+    border-radius: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 0.1rem solid rgb(163, 163, 163);
+    color: rgb(255, 255, 255);
+}
+
+.textContainer p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(249, 249, 249);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(7, 6, 6);
+    transition: all 200ms ease;
+  }
+
+
+  a {
+    position: relative; /* Establishes a positioning context for the ::before pseudo-element */
+    text-decoration: none; /* Optionally remove the default underline */
+}
+
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }

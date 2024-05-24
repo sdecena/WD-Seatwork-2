@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Dev */
+header,
+header * {
+    outline: 1px blue dash ed;
+}
+
+/* Dep */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw ;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 7vw;
+    top: 0;
+    left: 0;
+    backg round: #00000058;
+    color:#fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+
+}
+
+.links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+nav,
+.links a{
+    display: flex;
+    text-decoration: none;
+
+}
+
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(/assets/img/wallpaperOne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#aboutme {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 12%;
+    backgr ound: #0044ff60;
+    margin-top: 0px;
+    color: white;
+    
+}
+.aboutLeft img{
+    width: 400px;
+    height: auto;
+    transform: translateY(50px);
+    border-radius: 50px;
+}
+.aboutRight {
+    width: 54%;
+}
+
+.aboutRight ul li {
+    display: flex;
+    align-items: center;
+}
+
+.aboutRight h1 {
+    color: rgb(97, 145, 170);
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+.aboutRight p {
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 19px;
+}
+
+.aboutRight .address {
+    margin: 25px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    background: #0000007b;
+    border-radius: 30px;
+}
+
+.aboutRight .address ul li {
+    margin-bottom: 5px;
+}
+
+.address .address-logo {
+    margin-right: 15px;
+    color: rgb(97, 145, 170);
+}
+
+.address .separator {
+    margin: 0 35px;
+}
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(249, 249, 249);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(7, 6, 6);
+    transition: all 200ms ease;
+  }
+
+
+  a {
+    position: relative; /* Establishes a positioning context for the ::before pseudo-element */
+    text-decoration: none; /* Optionally remove the default underline */
+}
+
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }
