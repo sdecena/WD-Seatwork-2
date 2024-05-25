@@ -70,7 +70,7 @@
 
 This project is all about designing a website that contains our own portfolio/resume. Its main
 purpose is for us to develop and practice our skills in using HTML and CSS, in addition, this
-project will also provide a platform for users to present their background, experience, and skills. 
+project will also provide a platform for users to present their background, experience, and skills.
 
 For the key components of this website, this website is a multipage website that includes a 
 home page, an about me page, an education page, and the hobbies & skills page. The website 

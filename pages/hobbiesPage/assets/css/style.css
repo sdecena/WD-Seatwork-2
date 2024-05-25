@@ -89,17 +89,12 @@ section.hero * {
     margin-top: 100px;
 }
 
-.sectionP1 {
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
+
 
 .titleHobby {
-    margin-bottom: 10rem;
     font-size: 2.5rem;
     margin-bottom: 60px;
+    margin-top: 15px;
     color: rgb(97, 145, 170);
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -138,6 +133,7 @@ section.hero * {
     flex-direction: column;
     gap: rem;
     flex: 1;
+    padding-top: 10px;
 }
 
 .hobbyContainer {
